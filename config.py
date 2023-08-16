@@ -29,13 +29,13 @@ MOVES_RANGE = {"low": 3, "high": 3}
 CHESS_ENGINE_PATH = "C:\\Users\\sebir\\Downloads\\stockfish-windows-x86-64-avx2\\stockfish\\stockfish-windows-x86-64-avx2"
 
 # genetic algorithm params (increase max_num_iteration for better results at the expense of time).
-ALGORITHM_PARAMS = {'max_num_iteration': 50000,
+ALGORITHM_PARAMS = {'max_num_iteration': 4000,
                    'population_size': 20,
                    'mutation_probability': 0.07,
                    'elit_ratio': 0.01,
                    'parents_portion': 0.3,
                    'crossover_type': 'two_point',
-                   'max_iteration_without_improv': 5000}
-                   
+                   'max_iteration_without_improv': 1000}
+
 # minimum penalty for a good enough puzzle (to save additional computation)
 GOOD_ENOUGH_SCORE = 2.5
