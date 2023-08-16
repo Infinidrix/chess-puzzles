@@ -35,7 +35,7 @@ ALGORITHM_PARAMS = {'max_num_iteration': 4000,
                    'elit_ratio': 0.01,
                    'parents_portion': 0.3,
                    'crossover_type': 'two_point',
-                   'max_iteration_without_improv': 1000}
+                   'max_iteration_without_improv': 7000}
 
 # minimum penalty for a good enough puzzle (to save additional computation)
 GOOD_ENOUGH_SCORE = 2.5
